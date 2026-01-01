@@ -1,5 +1,5 @@
 lowercaseOutputName: true
 lowercaseOutputLabelNames: true
 rules:
-  - pattern: "kafka.(.+)<type=(.+), name=(.+)><>(Value|Count)"
-    name: "kafka_$1_$2_$3"
+- pattern: "kafka.(.+)<type=(.+), name=(.+)><>(Value|Count)"
+  name: "kafka_$1_$2_$3"

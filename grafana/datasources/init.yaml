@@ -9,13 +9,3 @@ datasources:
     type: prometheus
     access: proxy
     url: http://prometheus:9090
-    jsonData:
-      httpMethod: POST
-      manageAlerts: true
-      allowAsRecordingRulesTarget: true
-      prometheusType: Prometheus
-      prometheusVersion: 3.8.1
-      cacheLevel: 'High'
-      disableRecordingRules: false
-      timeInterval: 15s # Prometheus scrape interval
-      incrementalQueryOverlapWindow: 10m
