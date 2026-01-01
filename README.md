@@ -18,7 +18,7 @@ See for more details and new versions: [Prometheus - JMX Exporter](https://prome
     - [Grafana](http://localhost:3000/) (compose/cluster hostname: http://grafana:3000/)
         - Login
             - Username: `admin`
-            - Password: `admin`
+            - Password: `grafana`
         - use **prometheus** datasource (see `grafana/datasources/init.yaml`)
     - [Prometheus](http://localhost:9090/) (compose/cluster hostname: http://prometheus:9090/)
 
