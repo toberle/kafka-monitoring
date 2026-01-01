@@ -13,14 +13,14 @@ See for more details and new versions: [Prometheus - JMX Exporter](https://prome
 
 1. Run `docker compose up -d` (`docker compose stop` or `docker compose down`)
 2. Check status of containers `docker ps` (`docker ps -a`)
-  - Debugging: `docker logs CONTAINER_ID`
+    - Debugging: `docker logs CONTAINER_ID`
 3. UIs
-  - [Grafana](http://localhost:3000/) (compose/cluster hostname: http://grafana:3000/)
-    - Login
-      - Username: `admin`
-      - Password: `admin`
-    - use **prometheus** datasource (see `grafana/datasources/init.yaml`)
-  - [Prometheus](http://localhost:9090/) (compose/cluster hostname: http://prometheus:9090/)
+    - [Grafana](http://localhost:3000/) (compose/cluster hostname: http://grafana:3000/)
+        - Login
+        - Username: `admin`
+        - Password: `admin`
+        - use **prometheus** datasource (see `grafana/datasources/init.yaml`)
+    - [Prometheus](http://localhost:9090/) (compose/cluster hostname: http://prometheus:9090/)
 
 
 ## Basic Kafka CLI commands
